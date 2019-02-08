@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Lucida Grande Regular';
+	src: url('../fonts/Lucida Grande Regular.ttf');
+}
+
+.welcome {
+	background-color: #ff2d2d;
+	padding: 20px;
+}
+
+.welcome h4 {
+	font-size: 30px;
+	color: #fff;
+}
+
+.welcome p {
+	font-size: 18px;
+	color: #fff;
+}

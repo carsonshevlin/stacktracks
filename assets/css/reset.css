@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'Lucida Grande Regular';
+	src: url('../fonts/Lucida Grande Regular.ttf');
+}
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	background-image: url("../images/backgrounds/Strings.jpg");
+	background-size: cover;
+	font-family: 'Lucida Grande Regular';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	min-width: 975px;
+}
+
+a {
+	text-decoration: none;
+}
+
+form {
+	width: 25%;
+	margin: 70px auto;
+	background: white;
+	padding: 25px;
+	border-radius: 3px;
+}
+
+input {
+	display: block;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #0984e3;
+	border-radius: 3px;
+}
+
+form .form-group {
+	margin: 10px auto;
+}
+
+.submit_reset {
+	width: 48%;
+	border: none;
+	color: white;
+	background-color: #0984e3;
+	padding: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline;
+}
+
+.submit_reset:hover {
+	background-color: #4cd137;
+}
+
+.cancel_reset {
+	width: 48%;
+	border: none;
+	color: white;
+	background-color: #636e72;
+	padding: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline;
+}
+
+.msg {
+	margin: 5px auto;
+	border-radius: 5px;
+	border: 1px solid red;
+	background: pink;
+	text-align: left;
+	color: brown;
+	padding: 10px;
+}
